@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-21T02:29:50.650Z",
+        "line": 3,
+        "name": "User login to website and book a flight using valid username and password and with necessary information.",
+        "description": "",
+        "id": "user-able-to-login-using-valid-username-and-password-then-able-to-search-flight-and-book-flight.;user-login-to-website-and-book-a-flight-using-valid-username-and-password-and-with-necessary-information.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2675026500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User can open browser",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.user_can_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1010698400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the URL",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.go_to_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125831100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 738010600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112573600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "LoginSuccess Message should be Visible",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.login_success_message_should_be_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480753300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Flight Button",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.click_on_flight_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1390148900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Book a Flight",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.book_a_flight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821489600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.test.stepdefs.DemoGuruFlightStepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User able to login using valid username and password then able to search flight and book flight.",
+    "description": "",
+    "id": "user-able-to-login-using-valid-username-and-password-then-able-to-search-flight-and-book-flight.",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/DemoGuruFlight.feature",
+    "tags": []
+  }
+]
